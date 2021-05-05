@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnnybravo916/mailchimp.git"
+    "url": "git+https://github.com/johnnybravo916/Newsletter-Mailchimp.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnnybravo916/mailchimp/issues"
+    "url": "https://github.com/johnnybravo916/Newsletter-Mailchimp/issues"
   },
-  "homepage": "https://github.com/johnnybravo916/mailchimp#readme"
+  "homepage": "https://github.com/johnnybravo916/Newsletter-Mailchimp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
