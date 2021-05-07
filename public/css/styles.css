@@ -24,3 +24,14 @@ input.form-control{margin-bottom:10px;padding:10px}
 .img--form{
   max-width:100px;
 }
+
+.center{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height:100vh;
+}
+
+.center h1{
+  display:block
+}

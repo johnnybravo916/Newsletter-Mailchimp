@@ -13,30 +13,33 @@
             integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
             crossorigin="anonymous"
         />
-        <link href="styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body class="text-center">
         <main class="form-signin">
-            <form>
-                <img src="image/message.svg" class="img--form" />
+            <form action="/" method="post">
+                <img src="images/message.svg" class="img--form" />
                 <h1 class="h3 mb-3 fw-normal">Sign up to the Newsletter</h1>
 
                 <input
                     type="text"
                     class="form-control"
                     placeholder="First Name"
+                    name="firstName"
                 />
 
                 <input
                     type="text"
                     class="form-control"
                     placeholder="Last Name"
+                    name="lastName"
                 />
 
                 <input
                     type="email"
                     class="form-control"
                     placeholder="Email address"
+                    name="emailAddress"
                 />
 
                 <button class="w-100 btn btn-lg btn-primary" type="submit">
